@@ -1,0 +1,88 @@
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    grid-gap: 20px;
+    color: blue
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 25% 57% 18%;
+    height: 100%;
+    grid-gap: 20px;
+
+
+}
+h2 {
+    color: black;
+    text-align: left;
+}
+
+h4 {
+    border-top: 1px solid rgb(220, 209, 209);
+    border-bottom: 1px solid  rgb(220, 209, 209);
+    background-color:  gainsboro;
+}
+
+h5 {
+    border-bottom: 1px solid  rgb(196, 186, 186);
+    margin: 6px gainsboro solid;
+}
+
+.left {
+    background-color: gainsboro;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.center {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px 1fr ;
+}
+
+.right {
+    background-color: gainsboro;
+    height: 100%;
+    padding: 10px;
+}
+
+.header {
+    background-color: gainsboro;
+}
+
+.middle-material {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr; 
+}
+
+
+
+.bdr-lr {
+    border-left: 1px solid rgb(171, 158, 158);
+    border-right: 1px solid rgb(171, 158, 158);
+}
+
+.bdr-tb {
+    border-top: 1px solid rgb(171, 158, 158);
+    border-bottom: 1px solid rgb(171, 158, 158);
+}
+
+.inner-column {
+    border: 10px white solid;
+
+}
